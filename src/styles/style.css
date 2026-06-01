@@ -167,14 +167,36 @@ a {
 @media screen and (max-width: 900px) {
   .header__nav {
     background: var(--primary-color);
+    position: relative;
+    z-index: 1000;
+    overflow: visible; /* Prevent mobile menu from being hidden */
   }
 
   .header__menu {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Position it exactly right under the nav */
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    z-index: 999;
+    align-items: center; /* Center the links */
+    gap: 30px; /* Reduce gap on mobile */
+  }
+
+  .header__menu li {
+    color: var(--color-white);
+  }
+
+  .header__menu.active {
+    display: flex;
   }
 
   .header__menu-mobile {
     display: flex;
+    cursor: pointer;
   }
 }
 
