@@ -2,7 +2,7 @@
 
 A modern, elegant, and fully responsive landing page for a Japanese sushi restaurant. This project focuses on high-quality UI/UX with smooth sections dedicated to popular foods, trending sushi, drinks, and a newsletter subscription.
 
-![Sushiman Screen Record](./public/screen-record-sushiman.webp)
+![Overview](./public/screen-shot-sushiman.png)
 
 ## 📋 Table of Contents
 
@@ -10,6 +10,7 @@ A modern, elegant, and fully responsive landing page for a Japanese sushi restau
   - [📋 Table of Contents](#-table-of-contents)
   - [✨ Features](#-features)
   - [🛠 Tech Stack](#-tech-stack)
+  - [🎥 Preview](#-preview)
   - [📁 Project Structure](#-project-structure)
   - [🚀 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
@@ -30,6 +31,13 @@ A modern, elegant, and fully responsive landing page for a Japanese sushi restau
 - **CSS3** (Custom properties/variables, Flexbox, Grid)
 - **Vanilla JavaScript** (ES6+)
 - **[Vite](https://vitejs.dev/)** (Next Generation Frontend Tooling)
+- **[AOS](https://michalsnik.github.io/aos/)** (Animate On Scroll library)
+
+## 🎥 Preview
+
+**[Live Demo](https://dzsushiman.netlify.app) | [GitHub Repository](https://github.com/hichamweblog/sushiman)**
+
+![Sushiman Screen Record](./public/screen-record-sushiman.webp)
 
 ## 📁 Project Structure
 
