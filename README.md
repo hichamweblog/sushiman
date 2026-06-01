@@ -59,13 +59,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed along with a package
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/hichamweblog/sushiman-restaurent-site.git
+   git clone https://github.com/hichamweblog/sushiman.git
    ```
 
 2. **Navigate into the project directory:**
 
    ```bash
-   cd sushiman-restaurent-site
+   cd sushiman
    ```
 
 3. **Install the dependencies:**
